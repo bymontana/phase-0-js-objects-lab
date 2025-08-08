@@ -7,7 +7,7 @@
 // ticketPrice (a number) with the value 150.00
 
 let attendee = {
-  attendeeID: 'T001',
+  attendeeId: 'T001',
   name: 'Alice Smith',
   event: 'JavaScript Conference',
   ticketType: 'VIP',
