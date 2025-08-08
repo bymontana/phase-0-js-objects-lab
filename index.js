@@ -14,8 +14,48 @@ let attendee = {
   ticketPrice: 150.00
 };
 
+// Create a function named logAttendeeName that takes the attendee object as a parameter 
+// and logs the name.
 
+function logAttendeeName(attendee) {
+  console.log(attendee.name);
+}
 
+// Create a function names logTicketPrice that takes the attendee object as a parameter
+// and logs the ticketPrice.
+
+function logTicketPrice(attendee) {
+  console.log(attendee.ticketPrice);
+}
+
+// Create a function named updateTicketType that takes the attendee
+// object and a new ticket type as parameters, 
+// and updates the ticketType property of the attendee object.
+
+function updateTicketType(attendee, newTicketType) {
+  attendee.ticketType = newTicketType;}
+
+  // Create a function named updateTicketPrice that takes the attendee
+// object and a new ticket price as parameters,
+// and updates the ticketPrice property of the attendee object.
+
+function updateTicketPrice(attendee, newTicketPrice) {
+  attendee.ticketPrice = newTicketPrice;
+}
+
+// Create a function named removeEventProperty that takes the attendee
+// object as a parameter and removes the event property.
+
+function removeEventProperty(attendee) {
+  delete attendee.event;
+}
+
+// Create a function named addCheckedInProperty that takes the attendee
+// object as a parameter and adds a new property called checkedIn with the value true.
+
+function addCheckedInProperty(attendee) {
+  attendee.checkedIn = true; 
+}
 
 
 
